@@ -3,7 +3,7 @@ import { ClassificationResult } from "../types";
 
 // Initialize GenAI
 // The API key must be obtained exclusively from the environment variable process.env.API_KEY
-const ai = new GoogleGenAI({ apiKey: process.env.VITE_API_KEY });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
 
 // Helper to convert blob to base64
 export const blobToBase64 = (blob: Blob): Promise<string> => {
