@@ -1,0 +1,7 @@
+{
+  "name": "Urban Sound",
+  "description": "ML-Powered Urban Sound Classification using Gemini 2.5 Native Audio",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
